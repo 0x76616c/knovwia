@@ -1,2 +1,68 @@
-# knovwia
-An open-source knowledge base for communities
+# knovwia  
+An open-source knowledge base for communities  
+
+# Roadmap  
+- [ ] Basic Articles (Creation, updates, deleting)  
+- [ ] Markdown Support in articles  
+    - [ ] Sanitization  
+    - [ ] Rendering  
+- [ ] Article Search  
+    - [ ] Debouncing  
+    - [ ] Filters  
+    - [ ] Advanced searches with Postgres or Algolia  
+- [ ] User Authentication  
+    - [ ] Supabase?  
+    - [ ] OAuth  
+    - [ ] Route Protection  
+- [ ] Access Control  
+    - [ ] Users have ownership of articles  
+    - [ ] Admin Role  
+- [ ] Article Version Control  
+    - [ ] Tracking article edits  
+    - [ ] Version history view  
+    - [ ] Diff viewer  
+- [ ] Comment System  
+    - [ ] Comment Model (user, content, timestamp)  
+    - [ ] Comments with Partial Markdown Support  
+    - [ ] Comment editing/deletion  
+- [ ] Upvote/Downvote System  
+    - [ ] Articles and Comments can get votes from logged in users  
+    - [ ] Tracking votes per user (prevent multiple votes)  
+    - [ ] Sort articles/comments by popularity (multiple sorts)  
+- [ ] Role Based Access Control (RBAC)  
+    - [ ] Admin, Moderator, Contributor Roles  
+    - [ ] Role Based Permissions (can be managed by admins)  
+    - [ ] Admin panel for managing roles and users  
+- [ ] Tagging & Categories  
+    - [ ] Creating new tags under articles  
+    - [ ] Multiple tags per article (selector UI)  
+    - [ ] Category system for broader grouping  
+    - [ ] Filtering by tag/category  
+
+# Potential Features Roadmap  
+- [ ] Collaborative Real-Time Editing  
+    - [ ] Real-Time syncing library (Y.js/ShareDB)  
+    - [ ] Multi-user editing with cursors (-)  
+    - [ ] Conflict resolution and merge logic  
+    - [ ] List display of active collaborators under an article  
+- [ ] Advanced Search Filters  
+    - [ ] Tags, author, date, popularity (visits/day)  
+    - [ ] Multi-select filters with AND/OR logic  
+- [ ] Article Analytics  
+    - [ ] Tracking article views and display count  
+    - [ ] Article visualization (Recharts)  
+- [ ] Notifications  
+    - [ ] Notifications inside of the page for mentions/comments  
+    - [ ] Email Notifications (if mail server configured) (new comments, followed articles)  
+    - [ ] Settings panel for notification preferences (users only)  
+- [ ] Internationalization  
+    - [ ] i18n  
+    - [ ] Translating core UI components  
+    - [ ] Language switcher  
+- [ ] Visuals  
+    - [ ] Dark/light mode toggle  
+    - [ ] Mobile responsivity  
+    - [ ] Lazy loading images and components  
+- [ ] CI/CD  
+    - [ ] Github Actions for tests  
+    - [ ] Vercel/Netlify deployments  
